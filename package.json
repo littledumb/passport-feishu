@@ -1,0 +1,22 @@
+{
+  "name": "passport-feishu",
+  "version": "1.0.0",
+  "description": "Feishu authentication strategy for Passport.",
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littledumb/passport-feishu.git"
+  },
+  "keywords": [
+    "passport",
+    "feishu",
+    "auth",
+    "authentication"
+  ],
+  "author": "Jiamin Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/littledumb/passport-feishu/issues"
+  },
+  "homepage": "https://github.com/littledumb/passport-feishu#readme"
+}
