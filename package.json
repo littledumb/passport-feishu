@@ -5,7 +5,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/littledumb/passport-feishu.git"
+    "url": "https://github.com/littledumb/passport-feishu"
   },
   "keywords": [
     "passport",
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/littledumb/passport-feishu/issues"
   },
-  "homepage": "https://github.com/littledumb/passport-feishu#readme"
+  "homepage": "https://github.com/littledumb/passport-feishu#readme",
+  "dependencies": {
+    "passport-oauth2": "^1.5.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
 }
