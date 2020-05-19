@@ -46,7 +46,7 @@ application:
 app.get('/auth/feishu',
   passport.authenticate('feishu'));
 
-app.get('/auth/google/callback', 
+app.get('/auth/feishu/callback', 
   passport.authenticate('feishu', { session: true, successReturnToOrRedirect: '/' })
 );
 ```
